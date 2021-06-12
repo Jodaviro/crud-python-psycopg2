@@ -1,0 +1,25 @@
+WARNING:root:Watch out!
+INFO:root:I told you so
+DEBUG:root:debug impresio
+2021-02-01 17:23:36,462 - WARNING - [logger_base.py:11]
+2021-02-01 17:23:36,463 - INFO - [logger_base.py:12]
+2021-02-01 17:23:36,463 - DEBUG - [logger_base.py:13]
+2021-02-01 17:32:56,342 - WARNING - [logger_base.py:11]: Watch out!
+2021-02-01 17:32:56,343 - INFO - [logger_base.py:12]: I told you so
+2021-02-01 17:32:56,343 - DEBUG - [logger_base.py:13]: debug impresio
+2021-02-16 18:13:48,457 - WARNING - [logger_base.py:11]: Watch out!
+2021-02-16 18:13:48,457 - INFO - [logger_base.py:12]: I told you so
+2021-02-16 18:13:48,460 - DEBUG - [logger_base.py:13]: debug impresio
+2021-02-16 18:15:53,884 - WARNING - [logger_base.py:11]: Watch out!
+2021-02-16 18:16:04,767 - WARNING - [logger_base.py:11]: Watch out!
+2021-02-16 18:16:04,768 - INFO - [logger_base.py:12]: I told you so
+2021-02-16 18:16:04,768 - DEBUG - [logger_base.py:13]: debug impresio
+2021-02-26 00:55:26,620 - DEBUG - [cursor_pool.py:12]: Inicio de with metodo __enter__
+2021-02-26 00:55:26,631 - DEBUG - [conexion.py:27]: Creacion de pool exitosa <psycopg2.pool.SimpleConnectionPool object at 0x7fcfd9068790>
+2021-02-26 00:55:26,631 - DEBUG - [conexion.py:39]: Conexion realizada desde el pool <connection object at 0x7fcfd92bfac0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-02-26 00:55:26,724 - DEBUG - [cursor_pool.py:31]: Listado de personas
+2021-02-26 00:55:26,725 - DEBUG - [cursor_pool.py:32]: [(2, 'monica', 'Lewisnki', 'monica@platziblog.com'), (3, 'laura', 'Villalobos', 'laura@platziblog.com'), (4, 'edgar', 'Ramirez', 'edgar@platziblog.com'), (5, 'perezoso', 'Chavez', 'perezoso@platziblog.com'), (6, 'Camila', 'Peres', 'Kperez@platziblog.com'), (9, 'Alonso', 'Fuentes', 'Afuentes@platziblog.com'), (10, 'Pero', 'Pedrosa', 'pedrosa@platziblog.com'), (12, 'Nicola', 'Maduro', 'mamaguevo@mail'), (25, 'Carlos', 'Quintana', 'Cquintana@mail.com'), (26, 'David', 'Rodriguez', 'drodriguez@mail.com'), (24, 'Marcos', 'Cantu', 'mcantu@mail.com'), (8, 'Aristobulo', 'Isturi', 'aisturi@mail.com'), (27, 'Cabeza', 'Ename', 'cename@mail.com'), (23, 'Cristobal', 'Colon', 'ccolon@mail.com'), (28, 'Herculesito', 'Gimenez', 'Herculito@mail.com'), (45, 'Ramon', 'Arteaga', 'rarteaga@mail'), (46, 'Beatriz', 'Rodriguez', 'Bty@mail'), (1, 'Marquito', 'Cantuquito', 'mcantu@mail')]
+2021-02-26 00:55:26,725 - DEBUG - [cursor_pool.py:18]: Inicio del metodo __exit__
+2021-02-26 00:55:26,727 - DEBUG - [cursor_pool.py:25]: Commit de la transaccion
+2021-02-26 00:55:26,727 - DEBUG - [conexion.py:46]: Se ha regresado la conexion a su pool: <connection object at 0x7fcfd92bfac0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+2021-02-26 00:55:26,728 - DEBUG - [conexion.py:47]: Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x7fcfd9068790>
